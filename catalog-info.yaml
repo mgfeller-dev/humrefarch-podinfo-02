@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "humrefarch-podinfo-02"
+  annotations:
+    "humanitec.com/orgId": "migfe-explore"
+    "humanitec.com/appId": "humrefarch-podinfo-02"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
